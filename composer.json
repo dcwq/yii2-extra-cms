@@ -1,0 +1,43 @@
+{
+  "name": "dcwq/yii2-extra-cms",
+  "description": "Yii2 CMS extension",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension",
+    "cms",
+    "content",
+    "yii2-extra-cms"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/dcwq/yii2-extra-cms",
+  "authors": [
+    {
+      "name": "Dominik Cwiklik",
+      "email": "dcwiklik+dcwq@gmail.com",
+      "homepage": "https://github.com/dcwq/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "~2.0.0",
+    "yii2mod/yii2-cms": "*",
+    "yii2tech/ar-softdelete": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "phpunit/dbunit": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "dcwk\\extra-cms\\": ""
+    }
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
